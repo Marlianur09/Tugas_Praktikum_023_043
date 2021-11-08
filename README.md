@@ -27,5 +27,5 @@ http://dx.doi.org/10.26760/elkomika.v8i3.693
 2. Buka di Notebook anda atau google colabolatory
 
 # Autors
-Muhammad Marlianur (201810370311023)
-Ernowo Gordon Unus (201810370311043)
+1. Muhammad Marlianur (201810370311023)
+2. Ernowo Gordon Unus (201810370311043)
