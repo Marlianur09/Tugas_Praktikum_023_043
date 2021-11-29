@@ -157,6 +157,19 @@ Model yang digunakan adalah CNN (Convolutional Neural Network), untuk lebih jela
 
 
 # Hasil Modul 4
+1. Melakukan proses preprocessing dataset dengan ketentuan:
+- augmentasi data menggunakan ImageDataGenerator
+- balancing dataset menggunakan teknik oversampling / downsampling
+- splitting dataset menjadi (75% train, 14% validation, 1% test)
+2. Melakukan training beberapa skema model menggunakan model CNN sederhana buatan sendiri (minimal 2 model) tidak diperbolehkan menggunakan transfer learning
+- Menerapkan proses Convolution
+- Menerapkan proses Pooling
+- Menerapkan Dropout
+- Menerpakan BatchNormalization
+- Menerapkan learning rate scheduller
+- Menggunakan hyperparameter tuning
+- Minimal 100 epoch per model
+
 # Hasil Modul 5
 # Hasil Modul 6
 
