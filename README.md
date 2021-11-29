@@ -53,11 +53,61 @@ https://www.kaggle.com/c/aptos2019-blindness-detection/data
 2. Buka di Notebook anda atau google colabolatory
 
 # Preprocessing Dataset
+- grayscale=False
+- color_mode='rgb'
+- target_size=(60,60)
+- horizontal_flip=True
+- vertical_flip=True
+- rotation_range=20
+- zoom_range=0.2
+- width_shift_range=0.2
+- height_shift_range=0.2
+- shear_range=0.1
+- fill_mode="nearest
 
 # Model yang digunakan Dataset
+Model yang digunakan adalah CNN (Convolutional Neural Network), untuk lebih jelasnya lihat hasil modul
 
 # Hasil Modul 1
+- Pada modul 1 tugas yang diberikan masih tentang pembuatan GitHub untuk praktikum pembelajaran mesin, belum berkaitan dengan pengolahan dataset
 # Hasil Modul 2
+1. Melakukan proses preprocessing dataset
+- 
+2. Melakukan training beberapa skema model menggunakan model CNN sederhana buatan sendiri (minimal 2 model) tidak diperbolehkan menggunakan transfer learning
+- Hasil Menggunakan model
+- ![model 1 acc](https://user-images.githubusercontent.com/92302616/143843189-b7a1da29-fce4-46cf-8957-f98e42ec389a.PNG)
+- ![model 2 acc](https://user-images.githubusercontent.com/92302616/143843186-cfa40b2a-aabd-459f-92e5-ef11225aa7e6.PNG)
+
+
+
+
+
+
+
+- Hasil acc dan loss Model 1
+
+
+
+![1](https://user-images.githubusercontent.com/92302616/143843951-db2b8b3b-75d4-40e2-99c4-658b7d27dee6.png)
+![2](https://user-images.githubusercontent.com/92302616/143843969-f6192d96-2f73-4623-8074-a4e2941d49f7.png)
+
+
+
+
+
+- Hasil acc dan loss Model 2
+
+
+
+
+![3](https://user-images.githubusercontent.com/92302616/143844264-fc89003c-839a-4118-946c-c714b61509bc.png)
+![4](https://user-images.githubusercontent.com/92302616/143844275-4a3f7318-8e22-402e-8068-3aa3f3ae2809.png)
+
+
+
+3. Menyimpan model yang telah di training kedalam file .h5
+
+
 # Hasil Modul 3
 # Hasil Modul 4
 # Hasil Modul 5
