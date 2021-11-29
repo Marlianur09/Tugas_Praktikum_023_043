@@ -108,7 +108,54 @@ Model yang digunakan adalah CNN (Convolutional Neural Network), untuk lebih jela
 3. Menyimpan model yang telah di training kedalam file .h5
 
 
+
+![6](https://user-images.githubusercontent.com/92302616/143853650-d932bf4d-0060-4dc5-b4d6-3858dc8304f2.PNG)
+
+
 # Hasil Modul 3
+1. Melakukan proses preprocessing dataset dengan ketentuan:
+- augmentasi data menggunakan ImageDataGenerator
+- splitting dataset menjadi (75% train, 14% validation, 1% test)
+- Jawaban : Berdasarkan pembahasan bersama aslab, Dataset yang kami gunakan telah di split dari kaggle sehingga tidak perlu di split lagi.
+2. Melakukan training beberapa skema model menggunakan model CNN sederhana buatan sendiri (minimal 2 model) tidak diperbolehkan menggunakan transfer learning
+- Menerapkan proses Convolution
+- Menerapkan proses Pooling
+- Menerapkan Dropout
+- Menerpakan BatchNormalization
+- Model dengan beberapa variasi learning rate
+- Minimal 100 epoch per model
+
+
+
+- Hasil dari tugas di atas untuk model 1 dan model 2:
+
+![1](https://user-images.githubusercontent.com/92302616/143858517-ed25d88f-808b-4564-95af-8d4b2601dec3.PNG)
+![2](https://user-images.githubusercontent.com/92302616/143858528-fb32e1e5-be18-4bed-a9df-f55d9e9a485b.PNG)
+
+
+
+
+
+- Hasil acc dan loss model 1
+
+
+![11](https://user-images.githubusercontent.com/92302616/143859226-05634242-dbbb-4d3c-80aa-7c44680320f0.png)
+![12](https://user-images.githubusercontent.com/92302616/143859242-2d141467-b3d4-44bf-a381-e28673466c0d.png)
+
+
+
+
+
+
+
+
+- Hasil acc dan loss model 2
+
+
+![21](https://user-images.githubusercontent.com/92302616/143859347-dbec6c44-f517-461f-9c6d-0c25a2bc1d70.png)
+![22](https://user-images.githubusercontent.com/92302616/143859361-a5e7e517-be19-44ab-8659-d63b1c87505e.png)
+
+
 # Hasil Modul 4
 # Hasil Modul 5
 # Hasil Modul 6
