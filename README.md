@@ -29,4 +29,3 @@ http://dx.doi.org/10.26760/elkomika.v8i3.693
 # Autors
 1. Muhammad Marlianur (201810370311023)
 2. Ernowo Gordon Unus (201810370311043)
-![Screenshot (418)](https://user-images.githubusercontent.com/92302616/143817292-eea6f8b0-69ae-44de-a90b-b21718498f3d.png)
