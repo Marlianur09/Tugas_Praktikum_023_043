@@ -17,10 +17,12 @@ didapatkan akurasi sebesar 79.8% yang dapat mengklasifikasi 5 level penyakit
 Diabetic Retinopathy. 
 
 2. Dataset yang digunakan pada Jurnal
+
 Data yang digunakan pada referensi tersebut merupakan data dari kaggle tentang Diabetic Retinopaty
 https://www.kaggle.com/c/aptos2019-blindness-detection/data
 
 3. Preprocessing Data pada Jurnal
+
 Sebelum dimasukkan ke dalam model Deep Learning, perlu dilakukan pre-processing pada 
 dataset citra input. Penulis menggunakan Contrast Limited Adapt ive Histogram Equalization
 (CLAHE). CLAHE merupakan metode untuk meningkatkan untuk meningkatkan kontras pada citra. Berbeda dengan metode lain yang dapat 
@@ -29,6 +31,7 @@ gambar. Hal ini dapat dilakukan dengan menentukan nilai clip limit (batas ambang
 dilakukan pemotongan dari bagian citra yang tidak diperlukan.
 
 4. Model dan Hasil Akurasi
+
 Sistem yang dibuat merupakan klasifikasi 5 kelas penyakit Diabetic Retinopathy dengan menggunakan CNN dengan model EfficientNet yang memiliki tingkat akurasi cukup tinggi dibandingkan dengan metode sebelumnya yaitu sebesar 79.8%. 
 
 Hasil perbandingan model
