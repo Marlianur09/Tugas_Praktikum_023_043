@@ -169,6 +169,24 @@ Model yang digunakan adalah CNN (Convolutional Neural Network), untuk lebih jela
 - Menerapkan learning rate scheduller
 - Menggunakan hyperparameter tuning
 - Minimal 100 epoch per model
+# Hasil
+- Menggunakan Hyper Parameter Tuning
+
+
+![Capture](https://user-images.githubusercontent.com/92302616/144702865-d2d961da-4ff5-4e44-b2c4-8102770ee0d3.PNG)
+
+
+- Epoch menggunakan HParam
+
+
+![2](https://user-images.githubusercontent.com/92302616/144702847-a5f19b66-ce14-480f-a8c3-d83b4afd6cae.PNG)
+
+
+- Akurasi paling tinggi hasil dari optimizer adam
+
+
+![3](https://user-images.githubusercontent.com/92302616/144702849-2476b072-e88f-42cf-a5e7-45155efa14a9.PNG)
+
 
 # Hasil Modul 5
 # Hasil Modul 6
