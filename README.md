@@ -189,5 +189,69 @@ Model yang digunakan adalah CNN (Convolutional Neural Network), untuk lebih jela
 
 
 # Hasil Modul 5
+- Melakukan proses preprocessing dataset dengan ketentuan: augmentasi data menggunakan ImageDataGenerator dan salah satu augmentasi opsional lain seperti (random noise, clahe, usuyama, blur, atau yang lainnya), balancing dataset menggunakan teknik oversampling / downsampling, splitting dataset menjadi (75% train, 14% validation, 1% test).
+- Melakukan training beberapa skema model menggunakan pretrained model (minimal 2 model) dengan 100 epoch per model
+- Menyimpan model yang telah di training kedalam file .tflite Lihat disini
+# Hasil
+- hasil Model-model yang digunakan
+
+- Summary model pertama
+
+
+
+
+
+![2](https://user-images.githubusercontent.com/92302616/146187885-d69e9a51-06bc-4740-91de-a29381e37529.PNG)
+
+
+
+
+- Hasil akurasi Model pertama
+
+
+
+
+![m12](https://user-images.githubusercontent.com/92302616/146187892-e1b40aa8-c2f5-45ca-a2a5-7c366e66c646.png)
+![m1](https://user-images.githubusercontent.com/92302616/146187893-ef6f4e51-3701-41f3-b850-9a423134fdd1.png)
+
+
+
+
+- Model kedua menggunakan Resnet152V2
+
+
+
+![1](https://user-images.githubusercontent.com/92302616/146188326-3609d8f3-249e-48ce-9cda-e73eefc78311.PNG)
+
+
+
+
+
+- Summary Model kedua
+
+
+
+
+![3](https://user-images.githubusercontent.com/92302616/146188401-3166a98c-f5f7-4ab7-95f4-7060fbb10208.PNG)
+
+
+
+
+- Hasil Akurasi Training Model ResNet152V2 yang terkendala atau sering stop di epoch ke 5
+
+
+
+![hasil m2](https://user-images.githubusercontent.com/92302616/146188586-0a8d9b4d-9c8d-489d-ae9d-b22a24cf3b45.PNG)
+
+
+
+
+- Hasil klasifikasi 5 level Diabetic Retinopaty
+
+
+
+![m21](https://user-images.githubusercontent.com/92302616/146188719-ec230982-0256-44fa-90d5-50abf184a1df.png)
+![m22](https://user-images.githubusercontent.com/92302616/146188724-da86784f-9ea9-4902-923f-dca1421314d9.PNG)
+
 # Hasil Modul 6
 
