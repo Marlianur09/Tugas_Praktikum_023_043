@@ -254,4 +254,50 @@ Model yang digunakan adalah CNN (Convolutional Neural Network), untuk lebih jela
 ![m22](https://user-images.githubusercontent.com/92302616/146188724-da86784f-9ea9-4902-923f-dca1421314d9.PNG)
 
 # Hasil Modul 6
+1. Pre-requirement
+- Membuat virtual environment python atau anaconda python
+- Menjalankan virtual environment dan menginstall seluruh package yang digunakan dalam kegiatan ini pada virtual environment.
+- Membuat file requirement.txt yang berisi seluruh paket package digunakan dalam kegiatan bagian B.
+- Deployment menggunakan flask micro framework dari python
+- Project berbasis python file berekstensi .py bukan file notebook .ipynb
 
+2. Kriteria wajib untuk deploy model
+- Menggunakan model yang telah dilatih dan disimpan dalam format .h5,.json dan .tflite pada kegiatan kelompok di modul - modul sebelumnya.
+- Memiliki fitur upload data untuk diprediksi oleh model
+- Memiliki menu pilih model untuk memilih model yang ingin digunakan untuk memprediksi gambar.
+- Memiliki fitur komparasi model (fitur untuk membandingankan kinerja dari beberapa model dalam memprediksi data baru)
+- Memiliki fitur pilih gambar yang terdiri dari 25 gambar acak untuk diprediksi. Masing-masing kelas dari dataset anda harus terwakili oleh minimal 1 buah gambar.
+- Menampilkan hasil akurasi prediksi, lama waktu prediksi, input gambar yang dipresiksi dan label gambar yang diprediksi.
+- Menyimpan seluruh progress dan hasil pengerjaan modul dalam repository github.
+
+# Hasil
+- Link Program : https://drive.google.com/drive/folders/1ggxifsJxIpE4vFWV6-_Si0klqWoT_e8M?usp=sharing
+
+- Hasil deploy program
+- Tampilan depan
+
+
+
+
+![photo_2021-12-28_15-21-49](https://user-images.githubusercontent.com/92302616/147545463-be7121d6-dca6-461a-ae3d-20825d7321c9.jpg)
+![photo_2021-12-28_15-21-49 (2)](https://user-images.githubusercontent.com/92302616/147545469-039d9bf3-1809-495a-8f12-c098b21bdfbb.jpg)
+
+
+
+
+- Tampilan setelah penginputan gambar
+
+
+
+
+
+![photo_2021-12-28_15-21-20](https://user-images.githubusercontent.com/92302616/147545689-8516a725-e21e-42ba-bee5-3a66fd0c2be0.jpg)
+![photo_2021-12-28_15-21-20 (2)](https://user-images.githubusercontent.com/92302616/147545699-3a491585-05cc-44fd-be69-9fdc44be9428.jpg)
+![photo_2021-12-28_15-21-21](https://user-images.githubusercontent.com/92302616/147545712-e6e941b9-80b9-4e39-8507-00b3664410b4.jpg)
+![photo_2021-12-28_15-21-19](https://user-images.githubusercontent.com/92302616/147545720-dfec27a7-6ecf-467c-9b2b-408dfd1e71e5.jpg)
+![photo_2021-12-28_15-21-19 (2)](https://user-images.githubusercontent.com/92302616/147545741-10122d7c-c337-4e67-81cb-8a694367e95b.jpg)
+
+
+- Catatan :
+1. Pada uji coba deploy didapatkan hasil bahwa dari tiga skenario model terlihat Model CNN dan Resnet50 memberikan akurasi tertinggi pada kelas NO DR masing-masing 100% dan 71%. Sedangkan pada model MobileNet memiliki akurasi tertinggi sekitar 99% pada kelas Moderate.
+2. Deploy ini memiliki kekurangan pada tampilan hasil gambar. Gambar yang ditampilkan saat result masih sering gagal muncul, tetapi pada saat uji coba pertama hal tersebut masih bisa di atasi.
